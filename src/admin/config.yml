@@ -1,0 +1,18 @@
+backend:
+  name: github
+  repo: TextMyLink/textmylink-blog-clean
+  branch: main
+
+media_folder: "static/img"
+public_folder: "/img"
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "src/index.md"
+        label: "Homepage"
+        name: "index"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
