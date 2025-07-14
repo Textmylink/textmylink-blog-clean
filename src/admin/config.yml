@@ -3,8 +3,6 @@ backend:
   repo: TextMyLink/textmylink-blog-clean
   branch: main
 
-
-
 media_folder: "static/img"
 public_folder: "/img"
 
