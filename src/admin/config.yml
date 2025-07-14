@@ -2,9 +2,7 @@ backend:
   name: github
   repo: TextMyLink/textmylink-blog-clean
   branch: main
-  auth:
-    client_id: "Ov23liP8wTabPmzExlHV"
-    client_secret: "2ec588a0f271c8e1296b4a2cedf41fa9d063b582"
+
 
 
 media_folder: "static/img"
